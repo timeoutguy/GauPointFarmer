@@ -1,0 +1,20 @@
+{
+  "name": "GauPointsFarmer",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/timeoutguy/GauPointFarmer",
+  "author": "Marcus Vinícius Souza Silva <marcusvyny92@gmail.com> (https://timeoutguy.github.io/portfolio/)",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  }
+}
