@@ -25,8 +25,6 @@ const rl = readline.createInterface({
     await page.type('input[autocomplete="one-time-code"]', token);
     await page.mouse.click(562.875, 514.5);
   });
-
-  await page.screenshot({ paht: 'eu.png' });
 })();
 
 let farmedPoints = 0;
