@@ -7,6 +7,7 @@ Um bot que farma Gaupoints do https://www.twitch.tv/gaules. Por enquanto só fun
 
 # Como usar
 - Faça um clone do repositorio
+- Rode um `npm install` ou `yarn`
 - No arquivo `credentials.js` edite o campo `username` e `password`
 - Abra o seu terminal na pasta do projeto e execute o comando `npm run start` ou `yarn start`
 - Insira o SMS token no terminal
